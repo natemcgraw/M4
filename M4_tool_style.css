@@ -1,0 +1,230 @@
+body {
+  font-size: 16px;
+  font-family: arial;
+}
+
+ul {
+  font-size: 12px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+button{
+  background-color: #333;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+}
+
+button:hover{
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.active {
+  background-color: gray;
+}
+
+.costheader {
+  font-size: 20px;
+  padding: 10px 10px;
+  color:gray;
+}
+
+.cost {
+  font-size: 20px;
+}
+
+.emphasis {
+color: #FFCC00
+}
+
+.align-right {
+ float: right;
+ margin-left: 30px;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit{
+    background-color: #333;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+}
+
+.submit:hover{
+  background: #111;
+}
+
+/* Tool-Specific Table Style */
+#tool_table {
+  font-family: Arial;
+  font-size: 11px;
+  border-collapse: collapse;
+  padding: 10px 10px;
+}
+#tool_table td, #tool_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  column-width: auto;
+}
+#tool_table tr:nth-child(even){background-color: #f2f2f2;}
+#tool_table tr:hover {background-color: #ddd;}
+#tool_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: gray;
+  color: white;
+}
+
+/* Trying the frozen row again... */
+.fixed_headers {
+border-collapse: collapse;
+width:100%;
+}
+.fixed_headers td,
+.fixed_headers thead th {
+padding: 5px;
+}
+.fixed_headers thead, textarea {
+background-color:  #f2f2f2;
+color: white;
+}
+.fixed_headers thead tr {
+position: relative;
+}
+.fixed_headers tr:nth-child(even){background-color: #f2f2f2;} 
+.fixed_headers tbody tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+.fixed_headers thead th {
+position: sticky;
+top: 0;  /* REQUIRED: https://stackoverflow.com/a/43707215 */
+background-color: gray;
+color: white;
+z-index: 10;
+/*resize: horizontal;*/
+overflow: auto;
+min-width: 70px;
+}
+
+.fixed_sub1{
+  left: 0;
+  position: sticky;
+  z-index: 9998;
+  background-color:white;
+}
+
+.fixed_sub2{
+  left: 0;
+  position: sticky;
+  z-index: 9998;
+  background-color:#f2f2f2;
+}
+
+.fixed_sub1 tr:hover{
+  background-color: #ddd;
+}
+
+.fixed_sub2 tr:hover{
+  background-color: #ddd;
+}

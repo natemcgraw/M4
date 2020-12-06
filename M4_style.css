@@ -1,0 +1,126 @@
+body {
+  font-size: 16px;
+  font-family: arial;
+}
+
+ul {
+  font-size: 12px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+button{
+  background-color: #333;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+}
+
+button:hover{
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+table{
+  padding: 10px 10px
+}
+
+.active {
+  background-color: gray;
+}
+
+.costheader {
+  font-size: 20px;
+  padding: 10px 10px;
+  color:gray;
+}
+
+.cost {
+  font-size: 20px;
+}
+
+.emphasis {
+color: #FFCC00
+}
+
+.align-right {
+ float: right;
+ margin-left: 30px;
+}
+
+img {
+  max-width:90%;
+  width:auto;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  padding: 19px;
+  background: #333;
+  color: white;
+  font-size: 12px;
+}
+
+.submit{
+    background-color: #333;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+}
+
+.submit:hover{
+  background: #111;
+}
+
+.stickycol{
+    left: 0;
+    position: sticky;
+    z-index: 9999;
+}
+
+/* Tool-Specific Table Style */
+#tool_table {
+  font-family: Arial;
+  font-size: 11px;
+  border-collapse: collapse;
+  padding: 10px 10px;
+}
+#tool_table td, #tool_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  column-width: auto;
+}
+#tool_table tr:nth-child(even){background-color: #f2f2f2;}
+#tool_table tr:hover {background-color: #ddd;}
+#tool_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: gray;
+  color: white;
+}
